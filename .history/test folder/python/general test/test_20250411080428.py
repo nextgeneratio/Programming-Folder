@@ -1,0 +1,17 @@
+import sounddevice as sd
+from scipy.io.wavfile import write
+import wavio as wv
+
+
+# Set the parameters for recording
+duration = 5  # seconds
+fs = 44100  # Sample rate
+
+# start recording with the values of
+# duration and sample frequency
+print("Recording...")
+recording = sd.rec(int(duration * fs), samplerate=fs, channels=2, dtype='int16')
+sd.wait()  # Wait until recording is finished
+print("Recording finished")
+
+write('output.wav', fs, recording)  # Save as WAV file

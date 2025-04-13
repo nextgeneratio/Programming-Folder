@@ -1,0 +1,2 @@
+def count_func(a):
+    
