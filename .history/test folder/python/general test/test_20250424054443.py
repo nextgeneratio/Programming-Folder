@@ -3,9 +3,9 @@ import logic
 # Driver code
 if __name__ == '__main__':
     
-    # calling start_game function
-    # to initialize the matrix
-    mat = logic.start_game()
+# calling start_game function
+# to initialize the matrix
+mat = logic.start_game()
 
 while(True):
 
