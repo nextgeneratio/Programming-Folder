@@ -1,0 +1,1 @@
+Key.f1 Key.f2 Key.shift Key.f1 Key.tab Key.caps_lock Key.caps_lock Key.cmd Key.cmd Key.alt_l Key.space Key.enter Key.enter <103> <100> Key.num_lock Key.left Key.end Key.delete Key.esc 
